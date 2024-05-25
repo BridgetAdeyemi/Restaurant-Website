@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Sans-serif;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 5.625rem;
+    z-index: 9;
+}
+
+.hidden{
+    display: none;
+}
+
+li{
+    text-decoration: none;
+    font-size: 0.938rem;
+    padding: 1.438rem;
+    display: block;
+    float: left;
+    color: #7a7b82;
+}
+
+ul{
+    margin-left: 25rem;
+}
+
+li.space{
+    margin-top: 0.938rem;
+    padding: 1.875rem;
+    color: #4d4d4d;
+    font-weight: bold;
+    padding-right:0 ;
+    margin-left: 0;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+.img1{
+    margin-left: 2.5rem;
+}
+
+li.button{
+    margin-top: 1.25rem;
+    margin-left: 15.625rem;
+    padding: 2.5rem;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border-radius: 0.5rem;
+    font-size: 1.063rem;
+    padding: 0.875rem;
+    width: 6.25rem;
+    text-align: center;
+}
+
+li.button:hover{
+    background-color: #4d4d4d;
+    cursor: pointer;
+}
+
+.section_1{
+    position: relative;
+    top: 1.875rem;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56.25rem;
+}
+
+form {
+    position: absolute;
+    top: 30rem;
+    left: 28.125rem;
+    border: 1px solid white;
+    width: 35%;
+    height: 21.563rem;
+    margin:auto ;
+    font-size: 1.063rem;
+    display: grid;
+    place-items: center;
+    border-radius: 1.25rem;
+    background-color:rgba(255, 255, 255, 0.3);
+}
+
+.first_text{
+    padding-top: 15.625rem;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;;
+    font-size: 5rem; 
+}
+
+#label{
+    background-color: #e2e2e2;
+    width: 20.625rem;
+    text-align: right;
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    padding-left: 1.125rem;
+    padding-right: 4.375rem;
+    border-radius: 2.5rem;
+    font-size: 1.25rem;
+    margin-top: 3.125rem;
+}
+.label_2{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 9.375rem;
+    text-align: center;
+    padding: 0.75rem;
+    top: 33.625rem;
+    border-radius: 2.5rem;
+    margin-left: 0;
+    left: 30.5rem;
+    font-size: 1.125rem;
+}
+
+#city{
+    width: 26.25rem;
+    height: 3.125rem;
+    margin-top: 1.25rem;
+}
+
+#none{
+    width: 26.25rem;
+    height: 3.125rem;
+    margin-top:1.25rem;
+}
+
+.button_2{
+    width: 26.25rem;
+    height: 2.188rem;
+    margin-top:0.625rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 3.75rem;
+}
+
+.section_2{
+    position: relative;
+    height: 75rem;
+}
+
+.section2_text1{
+    position: absolute;
+    top: 9.375rem;
+    left: 5.625rem;
+    font-size: 2.188rem;
+}
+
+.food_1{
+    position: absolute;
+    top: 17.5rem;
+    left: 5.625rem;
+}
+
+p.text1{
+    text-align: center;
+    font-size: 0.938rem;
+    padding-top: 1.25rem;
+}
+
+p.text_1{
+    text-align: center;
+    font-size: 0.813rem;
+    color: #bfbfbf;
+    margin-top: 1.25rem;
+}
+
+.food_2{
+    position: absolute;
+    top: 17.5rem;
+    left: 21.25rem;
+}
+
+p.text2{
+    text-align: center;
+    font-size: 0.938rem;
+    padding-top: 1.25rem;
+}
+
+p.text_2{
+    text-align: center;
+    font-size: 0.813rem;
+    color: #bfbfbf;
+    margin-top: 1.25rem;
+}
+
+.food_3{
+    position: absolute;
+    top: 18.75rem;
+    left: 36.25rem;
+}
+
+p.text3{
+    text-align: center;
+    font-size: 0.938rem;
+    padding-top: 1.25rem;
+}
+
+p.text_3{
+    text-align: center;
+    font-size: 0.813rem;
+    color: #bfbfbf;
+    margin-top: 1.25rem;
+}
+
+.food_4{
+    position: absolute;
+    top: 17.5rem;
+    left: 51.25rem;
+}
+
+p.text4{
+    text-align: center;
+    font-size: 0.938rem;
+    padding-top: 1.25rem;
+}
+
+p.text_4{
+    text-align: center;
+    font-size: 0.813rem;
+    color: #bfbfbf;
+    margin-top: 1.25rem;
+}
+
+.food_5{
+    position: absolute;
+    top: 17.5rem;
+    right: 5.625rem;
+}
+
+p.text5{
+    text-align: center;
+    font-size: 0.938rem;
+    padding-top: 1.25rem;
+}
+
+p.text_5{
+    text-align: center;
+    font-size: 0.813rem;
+    color: #bfbfbf;
+    margin-top: 1.25rem;
+}
+
+.section2_text2{
+    position: absolute;
+    top: 43.75rem;
+    left: 5.625rem;
+    font-size: 2.188rem;
+}
+
+.menu_1{
+    position: absolute;
+    top: 51.25rem;
+    left: 6.875rem;
+}
+
+.menu_text1{
+    margin-top: 1.875rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.188rem;
+}
+
+.menu_2{
+    position: absolute;
+    top: 50rem;
+    left: 25rem;
+}
+
+.menu_text2{
+    margin-top: 1.25rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.188rem;
+}
+
+.menu_3{
+    position: absolute;
+    top: 50rem;
+    right: 27.5rem;
+}
+
+.menu_text3{
+    margin-top: 1.25rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.188rem;
+}
+
+.menu_4{
+    position: absolute;
+    top: 50rem;
+    right: 8.75rem;
+}
+
+.menu_text4{
+    margin-top: 1.25rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.188rem;
+}
+
+.section_3{
+    position: relative;
+    background-image: url('https://tantalizersng.com/images/Background2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 37.5rem;
+}
+.background_image{
+    position: absolute;
+    top: 11.25rem;
+    left: 5.625rem;
+}
+
+.section3_text1{
+    font-weight: bolder;
+    font-size: 3.125rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px white;
+    color: white;
+}
+
+.section3_text2{
+    font-size: 0.938rem;
+    font-weight: bold;
+    font-family: "Poppins", Sans-serif;
+    margin-top: 0.625rem;
+    color: #b6bcb5;
+}
+ .section3_text3{
+    margin-top: 3.125rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.938rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.625rem;
+ }
+
+ .section3_text4{
+    margin-top: 3.125rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.938rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.625rem;
+ }
+
+ footer{
+    position: relative;
+    height: 21.875rem; 
+ }
+
+ .footer_1{
+    position: absolute;
+    top: 3.125rem;
+    left: 5.625rem;
+    padding-top: 2.5rem;
+ }
+
+ .footer_2{
+    position: absolute;
+    top: 5.625rem;
+    left: 33.125rem;
+ }
+
+ .footer_3{
+    position: absolute;
+    top: 5.625rem;
+    right: 6.875rem;
+ }
+
+
