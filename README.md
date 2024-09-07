@@ -18,4 +18,4 @@ The project was created as a learning experience, allowing me to practice HTML5 
 - CSS3 for styling and layout.
 
 **Live Demo**    
-Checkout the live version of the project here
+Checkout the live version of the project here  https://bridgetadeyemi.github.io/Restaurant-Website/
