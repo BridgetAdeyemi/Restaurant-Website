@@ -16,3 +16,6 @@ The project was created as a learning experience, allowing me to practice HTML5 
 **Technologies Used**
 - HTML5 for content structure.
 - CSS3 for styling and layout.
+
+**Live Demo**    
+Checkout the live version of the project here
